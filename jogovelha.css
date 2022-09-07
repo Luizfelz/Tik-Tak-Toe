@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+.titulo {
+  color: orange;
+}
+
+main {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tabuleiro {
+  display: flex;
+  flex-wrap: wrap;
+  width: 308px;
+  gap: 4px;
+}
+
+.casas {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #3e3d3d;
+  background-color: #62f062;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 3rem;
+  color: white;
+}
+
+.btnRestart {
+  display: flex;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.5rem 1.5rem;
+  background-color: #38aef7;
+  color: white;
+  border: 0px;
+  box-shadow: 3px 3px 5px -5px #000000;
+}
+
+.btnRestart:hover {
+  filter: brightness(1.1);
+}
